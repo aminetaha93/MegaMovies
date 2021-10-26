@@ -1,10 +1,10 @@
 import { Typography } from "@material-ui/core";
 import BaseLayout from "../../ds/BaseLayout";
 
-export default function HomePage() {
+export default function SearchPage() {
   return (
     <BaseLayout>
-      <Typography>Page d'acceuil</Typography>
+      <Typography>Search page</Typography>
     </BaseLayout>
   );
 }
