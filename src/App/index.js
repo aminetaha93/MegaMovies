@@ -1,7 +1,9 @@
+import HomePage from "../home/HomePage";
+
 export default function App() {
   return (
-    <div className="App">
-      <button></button>
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
