@@ -27,4 +27,6 @@ export default function MovieCard({ title, image, id }) {
 
 MovieCard.prototype = {
   title: string.isRequired,
+  id: string.isRequired,
+  image: string,
 };
