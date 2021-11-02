@@ -1,6 +1,9 @@
 import { ThemeProvider } from "@material-ui/styles";
 import { BrowserRouter } from "react-router-dom";
 import theme from "../src/ds/theme";
+import { worker } from "../src/mocks/browser";
+
+worker.start();
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
